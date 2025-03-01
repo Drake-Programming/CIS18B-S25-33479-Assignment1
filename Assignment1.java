@@ -69,7 +69,7 @@ class BankAccount {
      * @param amount
      */
     public void withdraw(double amount) {
-        if (this.getBalance() - amount >= 0) {
+        if (this.balance - amount >= 0) {
             this.balance -= amount;
         }
         else {
